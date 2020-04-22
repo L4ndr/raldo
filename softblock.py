@@ -1,5 +1,6 @@
 import tweepy
 from time import sleep
+from webbrowser import open
 
 consumer_key = "dJHHerYFLYjq5faGVNwBXdcGH"
 api_secret = "Lep6W9zFvjNuAcULxxAeG5SirfBKUDjr3LxXZCjF4QODMQ7eja"
