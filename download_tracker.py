@@ -3,7 +3,7 @@ from time import sleep
 from watchdog.events import FileSystemEventHandler
 import os
 
-downloads = "/home/land/Downloads"
+downloads = f"{os.expanduser("~")}/Downloads"
 os.chdir(downloads)
 
 image_extensions = ["jpg", "png", "jpeg", "gif"]
