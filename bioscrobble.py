@@ -6,6 +6,7 @@ twitter_consumer_key = "FqazB1jsgvbbCVyoEkbXOGe9t"
 twitter_api_secret = "xo7fehI4DUSj5jR5FYApq0BpWjT1FZZpLUy1d0kIwGE66VR8iS"
 
 import pylast
+# pra ter acesso à suas chaves da api do last você precisa se registrar aqui antes: https://www.last.fm/api/account/create
 last_api_key = ""
 last_api_secret = ""
 username = "user" # coloque seu usuário do last aqui
@@ -15,6 +16,11 @@ user = pylast.User(username, network)
 auth = tweepy.OAuthHandler(twitter_consumer_key, twitter_api_secret)
 auth_url = auth.get_authorization_url()
 webbrowser.open(auth_url)
+
+
+# pra poder rodar no nohup eu tive que fazer essa gambiarrinha aqui
+# você pega o código que apareceu na janela que abriu e cola num arquivo
+# com nome "auth.txt" (sem aspas) dentro do mesmo diretório
 
 sleep(60)
 auth.get_access_token(open('auth.txt').read().strip('\n'))
