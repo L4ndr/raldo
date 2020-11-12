@@ -2,8 +2,8 @@ from time import sleep
 import webbrowser
 
 import tweepy
-twitter_consumer_key = "FqazB1jsgvbbCVyoEkbXOGe9t"
-twitter_api_secret = "xo7fehI4DUSj5jR5FYApq0BpWjT1FZZpLUy1d0kIwGE66VR8iS"
+twitter_consumer_key = ""
+twitter_api_secret = ""
 
 import pylast
 # pra ter acesso à suas chaves da api do last você precisa se registrar aqui antes: https://www.last.fm/api/account/create
