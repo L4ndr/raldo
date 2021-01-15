@@ -6,7 +6,7 @@ twitter_consumer_key = ""
 twitter_api_secret = ""
 
 import pylast
-# in order to get your last.fm api credentials you first need to register here: https://www.last.fm/api/account/create
+# to get your last.fm api credentials you first need to register here: https://www.last.fm/api/account/create
 last_api_key = ""
 last_api_secret = ""
 username = "user" # replace user with your actual last.fm username
